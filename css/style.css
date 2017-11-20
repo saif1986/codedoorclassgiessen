@@ -1,0 +1,206 @@
+
+body {
+	background-color: 	rgba(0, 188, 212, 0.11);
+}
+
+
+
+.logo{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	
+}
+.vidoe1 {
+	width: 100%;
+	height: 100%;
+
+}
+
+.logo-icon {
+	color: blue;
+}
+
+.moe {
+	position: absolute;
+	top: 0%;
+	left: 60%;
+}
+
+.moe1 {
+	position: absolute;
+	top: 70px;
+	left: 0%;
+	width: 52%;
+	height: 285%;
+}
+
+.moe3 {
+	position: absolute;
+	top: 0%;
+	left: 30%;
+	color: #fff
+}
+
+.moe4 {
+	width: 100%;
+	height: 100%;
+}
+.moe6{
+	width: 150px;
+	height: 100px;
+}
+.moe5 {
+	color: #3498DB;
+}
+
+.moe8 {
+	position: absolute;
+	top: 710%;
+	left: 28%;
+}
+
+.moe10 {
+	position: absolute;
+	left: 50%;
+}
+
+
+.aboutus {
+	position: absolute;
+	top: 0%;
+	left: 50%;
+}
+
+
+.sai{
+	position: absolute;
+	left: 0%;
+	object-fit: fill;
+}
+
+.vidoe2 {
+	width: 100%;
+	height: 100%;
+	object-fit:fill;
+}
+
+.vidoe3 {
+	width: 100%;
+	height: 100%;
+	
+	}
+
+.text {
+	color: #FDFEFE;
+
+}
+.text1{
+	font-size: 48px;
+}
+
+.text2 {
+	color: #fff;
+	background-color: rgba(33, 150, 243, 0.8);;
+	position: absolute;
+	left: 44%;
+}
+.text4 {
+	color: #3498DB;
+	position: absolute;
+	left: 25%;
+}
+.text5 {
+	color: #fff;
+	background-color: rgba(33, 150, 243, 0.8);;
+	position: absolute;
+	left: 48%;
+}
+
+.step{
+	background-color: rgba(73, 113, 202, 0.06);
+
+}
+#top {
+    border: 1px solid black;
+    height: 3000px;
+}
+
+#bottom {
+    border: 1px solid red;
+}
+
+.logo-moving {
+	position: absolute;
+	top: 0%;
+	left: 50%;
+}
+.cup1{
+	position: absolute;
+	top: 113%;
+	left: 84.6%;
+	transform: translate(-50%,-50%);
+	width: 100px;
+	height: 100px;
+	border: 6px solid #262626;
+	border-top:2px solid transparent;
+	border-radius: 15px; 
+	border-top-left-radius: 5px; 
+	border-top-right-radius: 5px;
+	background: url(shutterstock_125680649.jpg);
+	background-repeat: repeat-x;
+	animation: animate 10s linear infinite; 
+	box-shadow: 0 0 0 6px #fff;
+
+}
+.cup1:before
+{
+	content: '';
+	
+	width: 50px;
+	height: 80px;
+	border: 6px solid #fff;
+	
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;  
+}
+
+@keyframes animate
+{
+  0%
+  {
+  	background-position: 0 -70px;
+  }
+  10%
+  {
+  	background-position: 0 100px;
+  }
+  40%
+  {
+  	background-position: 1000px -70px;
+  }
+  80%
+  {
+  	background-position: 2000 -80px;
+  }
+  100%
+  {
+  	background-position: 2500 100px;
+  }
+}
+.saufe{
+	background-color: #fff0;
+	width: 10px;
+	height: 10px;
+}
+
+.text-color {
+	color: black;
+}
+
+.img-moveing {
+	width: 100%;
+	height: 100%;
+}	
